@@ -1,0 +1,39 @@
+@import "tailwindcss";
+
+@layer base {
+  body {
+    font-family: 'Prompt', -apple-system, BlinkMacSystemFont, sans-serif;
+  }
+  
+  h1, h2, h3, .font-heading {
+    font-family: 'Fredoka', 'Prompt', sans-serif;
+  }
+}
+
+@keyframes float-gentle {
+  0%, 100% {
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(-6px);
+  }
+}
+
+@keyframes sparkle-pulse {
+  0%, 100% {
+    opacity: 0.3;
+    transform: scale(0.9);
+  }
+  50% {
+    opacity: 0.9;
+    transform: scale(1.1);
+  }
+}
+
+.animate-float {
+  animation: float-gentle 4s ease-in-out infinite;
+}
+
+.animate-sparkle {
+  animation: sparkle-pulse 2.5s ease-in-out infinite;
+}

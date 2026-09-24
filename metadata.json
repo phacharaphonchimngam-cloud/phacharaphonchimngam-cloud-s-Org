@@ -1,0 +1,6 @@
+{
+  "name": "คุณเป็นใครใน My Little Pony?",
+  "description": "แบบทดสอบค้นหาตัวตน 15 ข้อ ค้นพบว่าคุณมีบุคลิกภาพคล้ายกับตัวละคร My Little Pony ตัวใดมากที่สุด พร้อมการวิเคราะห์บุคลิกภาพแบบละเอียด",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
